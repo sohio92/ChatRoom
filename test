@@ -1,0 +1,9 @@
+#!/bin/bash
+
+gnome-terminal -- python3 serveur.py
+
+sleep 1
+
+gnome-terminal -- python3 client.py
+gnome-terminal -- python3 client.py
+
